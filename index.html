@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea</title>
+	<meta name="description" content="A cloud computing contact form.">
+	<link rel="stylesheet" href="AnalogSea.css">
+</head>
+<body>
+
+<div class="container">
+	<img src="logo.png" alt="AnalogSea">
+	<main class="signup">
+		<h1>Sign Up</h1>
+		<form class='AnalogSea-form' action="/signup/" method='post'>
+
+			<label for="email">Email</label>
+		      <input type="email" name='email' id='email' placeholder="foo@bar.com" required/>
+
+		      <label for="password">Password</label>
+		      <input type="password" name='password' id='password' placeholder="1234passw0rd" required/>
+			<button type='submit'>Sign Up</button>
+			<p><a href="/forgot-password/new">Forgot password?</a></p>
+		</form>
+	</main>
+	<p class="login">Already have an account? <a class="login" href="/login">Log In</a></p>
+</div>
+</body>
+</html>
